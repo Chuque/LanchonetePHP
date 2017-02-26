@@ -1,0 +1,33 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+}
+
+.menu-container
+{
+	width: 100%; height: 90px;
+	border-bottom-width: 1px;
+	border-bottom: solid white 2px;
+}
+
+.menu-container .menu-item
+{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.menu-container .menu-item h1, .menu-container .menu-item a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.main-page
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://pousadabeiramartamandare.com/wp-content/uploads/sites/68562/2014/05/Buhola-las-mejores-hamburguesas-del-mundo-1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
